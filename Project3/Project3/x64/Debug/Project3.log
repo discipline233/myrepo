@@ -1,0 +1,50 @@
+﻿  源.cpp
+D:\Project3\Project3\源.cpp(7,6): warning C4101: “n”: 未引用的局部变量
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\xutility(1419,1): error C2664: “bool main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()(int [],int []) const”: 无法将参数 1 从“int”转换为“int []”
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\xutility(1419,20): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Project3\Project3\源.cpp(15,3): message : 参见“main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()”的声明
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\xutility(1418): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr&,int&,int&,0>(main::<lambda_c86be8a5166e69f94ee82f34abb120c1>&,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>,
+              _Ty1=int &,
+              _Ty2=int &
+          ]
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7264): message : 查看对正在编译的函数 模板 实例化“_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)”的引用
+          with
+          [
+              _BidIt=int *,
+              _RanIt=int *,
+              _Pr=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>
+          ]
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7294): message : 查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<_RanIt,_Fn>(_RanIt,_RanIt,__int64,_Pr)”的引用
+          with
+          [
+              _RanIt=int *,
+              _Fn=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>,
+              _Pr=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>
+          ]
+D:\Project3\Project3\源.cpp(15): message : 查看对正在编译的函数 模板 实例化“void std::sort<int*,main::<lambda_c86be8a5166e69f94ee82f34abb120c1>>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=int *,
+              _Pr=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>
+          ]
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7198,1): error C2664: “bool main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()(int [],int []) const”: 无法将参数 1 从“int”转换为“int []”
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7198,22): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Project3\Project3\源.cpp(15,3): message : 参见“main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()”的声明
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7275): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=int *,
+              _Pr=main::<lambda_c86be8a5166e69f94ee82f34abb120c1>
+          ]
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7202,1): error C2664: “bool main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()(int [],int []) const”: 无法将参数 1 从“int”转换为“int []”
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7202,82): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Project3\Project3\源.cpp(15,3): message : 参见“main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()”的声明
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7213,1): error C2664: “bool main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()(int [],int []) const”: 无法将参数 1 从“int”转换为“int []”
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7213,30): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Project3\Project3\源.cpp(15,3): message : 参见“main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()”的声明
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7226,1): error C2664: “bool main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()(int [],int []) const”: 无法将参数 1 从“int”转换为“int []”
+D:\vs2022\VC\Tools\MSVC\14.30.30705\include\algorithm(7226,30): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Project3\Project3\源.cpp(15,3): message : 参见“main::<lambda_c86be8a5166e69f94ee82f34abb120c1>::operator ()”的声明

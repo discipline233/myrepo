@@ -1,0 +1,5 @@
+﻿  指针.cpp
+D:\Project5\Project5\指针.cpp(7,29): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
+D:\Project5\Project5\指针.cpp(7,29): warning C4302: “类型强制转换”: 从“int *”到“int”截断
+D:\Project5\Project5\指针.cpp(7,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“int *”
+  Project5.vcxproj -> D:\Project5\x64\Debug\Project5.exe
